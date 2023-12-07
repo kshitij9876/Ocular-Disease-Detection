@@ -15,11 +15,9 @@ To extract useful texture information from the fundus images, Local Binary Patte
 ## Deep Learning Models
 Three different deep learning models are utilized for ocular disease recognition:
 
-1. VGG-19: A popular and deep convolutional neural network architecture known for its ability to learn intricate features from images. VGG-19 has shown great success in various image recognition tasks.
+1. ResNet-50: Residual Network is another widely used deep learning architecture that addresses the vanishing gradient problem, allowing for the training of very deep networks. ResNet-50 has demonstrated excellent performance in image classification tasks.
 
-2. ResNet-50: Residual Network is another widely used deep learning architecture that addresses the vanishing gradient problem, allowing for the training of very deep networks. ResNet-50 has demonstrated excellent performance in image classification tasks.
-
-3. Vision Transformer: The Vision Transformer is a recent breakthrough in computer vision, showing remarkable results in various image-related challenges. It employs a self-attention mechanism to capture global information from the images.
+2. Vision Transformer: The Vision Transformer is a recent breakthrough in computer vision, showing remarkable results in various image-related challenges. It employs a self-attention mechanism to capture global information from the images.
 
 ## Training and Evaluation
 The models are trained on the preprocessed images using LBP and validated using appropriate evaluation metrics, such as accuracy. The dataset is split into training and testing sets to ensure the generalization of the models.
@@ -34,7 +32,3 @@ The Ocular Disease Detection project could be extended in the following ways:
    
 ## Conclusion
 Ocular disease detection using deep learning models, LBP preprocessing, and vision transformer techniques shows promising results for early diagnosis and effective treatment. By utilizing state-of-the-art methodologies, this project contributes to advancing the field of medical image analysis and has the potential to assist clinicians in providing timely and accurate diagnoses to patients with various ocular diseases.
-
-## Other Contributors
-1. Anand Kumar Sahu
-2. Rajeev Ranjan
